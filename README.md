@@ -33,10 +33,21 @@ Dans ce cours nous ferons des additions, des soustractions, quelques multiplicat
 Non ce n'est pas tout, nous allons surtout travailler sur la logique, on va décortiquer des problématiques, on va les organiser, on les traduira en français puis en javascript.
 On apprendra par la pratique quelques notions techniques qui nous permmettront de traduire nos pensées en pixels qui bougent comme on le veut.
 
+# Back to 1972 
+
+Pour apprendre ce langage on va revenir en 1972 et on va coder un PONG... oui oui ce vieux jeux tout simple. Ce jeu sur le plan historique fait que nous sommes ici dans une classe dédiée au jeu vidéo. PONG est à l'origine de l'économie du jeu vidéo ni plus ni moins https://fr.wikipedia.org/wiki/Pong
+
+On pourrait coder notre PONG de diverses manières en utilisant diverses technologies. Ici nous allons utiliser...
+
+- HTML, CSS pour l'affichage (canvas hors cadre pédagogique aurait été préféré)
+- jQuery pour manipuler nos éléments graphiques (car c'est au programme)
+- Des classes ES6 (car on est en 2020 quand même)
+
+En ce qui concerne le style de code, on va utiliser des termes français. Attention, je ne vous encourage pas à utiliser du français dans vos projets futurs pour autant, l'anglais est LA langue des programmeurs du monde entier. Si je fais ce choix aujourd'hui c'est simplement pour que vous distinguiez bien la différence entre ce que NOUS allons écrire et ce que le langage javavascript nous oblige à utiliser. D'autre part je souhaite que nous utilisions des termes très très précis de manière à ce que nous comprennions très très bien ce que nous écrivons et pourqoui nous l'écrivons.
 
 
 
 
 
 
-Pour apprendre ce langage on va revenir en 1972 et on va coder un PONG.
+
