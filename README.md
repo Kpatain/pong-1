@@ -2,7 +2,7 @@
 
 Jusqu'ici vous avez vu du HTML et de la CSS, ces deux langages permettent d'afficher des media sur un écran et d'en arranger la présentation. Ces deux langages ne sont pas fait pour *programmer* réellement autre chose que ce qui s'affiche sur un écran ou une imprimante. **Javascript** lui; oui. 
 
-Javascript va permettre de rendre votre HTML plus malin, ce sera avous de le rendre intelligent.
+Javascript va permettre de rendre votre HTML plus malin.
 
 ## Javascript ?
 
