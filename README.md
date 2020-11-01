@@ -1,3 +1,9 @@
+# Ressources pour ce cours
+
+- [Notre exemple de jeu](https://davidmarsprof.github.io/pong/exemple)
+- [Une liste de formules magique](formules-magiques.md)
+- [Du piano en MP3](https://github.com/davidmarsprof/pong/tree/main/exemple/sound)
+
 # Une introduction à javascript
 
 Jusqu'ici vous avez vu du HTML et de la CSS, ces deux langages permettent d'afficher des media sur un écran et d'en arranger la présentation. Ces deux langages ne sont pas fait pour *programmer* réellement autre chose que ce qui s'affiche sur un écran ou une imprimante. 
