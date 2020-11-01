@@ -179,7 +179,6 @@ Si(la balle touche le mur){
 }
 
 ```javascript
-  //essayez ce code plusieurs fois d'affilée dans la console
   if( 10 > 5){
     alert("touche le mur");
   }else{
