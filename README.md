@@ -39,6 +39,17 @@ On apprendra par la pratique quelques notions techniques qui nous permmettront d
 
 Pour apprendre ce langage on va revenir en 1972 et on va coder un PONG... oui oui ce vieux jeux tout simple. Ce jeu sur le plan historique fait que nous sommes ici dans une classe dédiée au jeu vidéo. PONG est à l'origine de l'économie du jeu vidéo ni plus ni moins https://fr.wikipedia.org/wiki/Pong
 
+## Pourquoi PONG ?
+
+Car c'est un jeu simple (enfin vous changerez peut être d'avis en le codant vous même).
+
+Car c'est un jeu qui s'appuie sur des choses que vous avez vues en Python. 
+Je tiens promesse notre pong ne va pas calculer de tangente lors de rebonds.
+
+Car c'est un jeu multijoueur.
+
+Car c'est un jeu qui partant d'une même base peut évoluer à l'infini (deux balles, bonus, murs mouvants, cheat codes, handicaps etc...) et donc permettra à ceux qui sont à l'aise de se donner un peu de fil à retordre.
+
 ## Technologies abordées
 
 On pourrait coder notre PONG de diverses manières en utilisant diverses technologies. Ici nous allons utiliser...
@@ -68,13 +79,3 @@ Parfois on ira très vite sur certaines notions plus complexes et moins essentie
 Je noterai vos projets quasiment à chaque scéance de manière à vous inciter à travailler moins mais plus régulièrement. Si vous attendez trop avant de mettre vos projets au carré, vous n'arriverez plus à suivre au bout de 2 semaines.
 
 Enfin d'ici quelques semaines je vous noterai en classe sur un exercice qu'il faudra réaliser sans autre aide qu'internet pour vous documenter (pas de chat, ni mail etc, on se comprend).
-
-
-
-
-
-
-
-
-
-
