@@ -233,7 +233,7 @@ $monMachin.css("background-color","#FF0000");
 #### Attention
 
 Il existe une fonction `position()` et une fonction `offset()` dans jQuery. 
-Ces fonctions qui permettent de manipuler les positions d'objets HTML sont très pratiques mais peuvent engendrer des bugs incompréhensibles quand on n'a pas suffisament de pratique d'HTML et CSS. ** ON NE VA PAS LES UTILISER **.
+Ces fonctions qui permettent de manipuler les positions d'objets HTML sont très pratiques mais peuvent engendrer des bugs incompréhensibles quand on n'a pas suffisament de pratique d'HTML et CSS. **ON NE VA PAS LES UTILISER**.
 
 
 # La programmation orientée Objet (POO)
@@ -271,4 +271,5 @@ jamesBond.parle("On ne vit que deux fois");
 
 ## Pour gérer le son
 
+à compléter
 
