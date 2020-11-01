@@ -1,0 +1,9 @@
+<html> <head> <title>PONG</title> <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" name="viewport"> <link rel="stylesheet" href="styles/min.css"> </head> <body> <div class="ecran-debut"> <div> Joueur 1 <br><br> utilisez les touches <br><br> <span class="touche">A</span> et <span class="touche">Q</span> </div> <div> Joueur 2 <br><br> utilisez les touches <br><br> <span class="touche">P</span> et <span class="touche">M</span> </div> <a href="#" class="btn btn-go">JOUER</a> </div> <div class="terrain"> <div class="touche top left" id="monte1">A</div> <div class="touche bottom left" id="descend1">Q</div> <div class="touche top right" id="monte2">P</div> <div class="touche bottom right" id="descend2">M</div> <div class="score score1">0</div> <div class="score score2">0</div> <div class="balle"></div> <div class="raquette joueur1"></div> <div class="raquette joueur2"></div> </div> <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <script src="https://code.createjs.com/1.0.0/soundjs.min.js"></script> <script type="text/javascript" src="js/min.js"></script> </body> <script type="text/javascript"> //prévention de cache
+$("script").each(function(){
+    let src=$(this).attr("src")+"?"+Math.random();
+    $(this).attr("src",src);
+});
+$("link").each(function(){
+    let href=$(this).attr("href")+"?"+Math.random();
+    $(this).attr("href",href);
+}); </script> </html>
