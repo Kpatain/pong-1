@@ -1,10 +1,95 @@
 # Formules magiques
 
-Ici vous trouverez tous les ingrédients que nous allons utiliser pour notre PONG. On n'utilisera pas dès le premier cours tout ce qui est listé ici mais je vous demanderais de lire en diagonale cette page afin d'aller y piocher le moment venu ce qu'il vous faut.
+Ici vous trouverez tous les ingrédients que nous allons utiliser pour notre PONG. On n'utilisera pas dès le premier cours tout ce qui est listé ici mais je vous demanderai de lire en diagonale cette page afin d'aller y piocher le moment venu ce qu'il vous faut.
 
 Dans ce document, on ne rentre pas dans le détail, ce sera à vous de vous documenter grâce aux liens fournis si vous voulez aller plus loin.
+Si vous voulez une approche plus exhaustive [je vous conseille ce cours](https://developer.mozilla.org/fr/docs/Learn/JavaScript/First_steps)
+
+Pour se donner du courrage, dites vous que si vous maîtrisez bien tout ce qui est expliqué ici, que tout cela devient naturel c'est que vous serez prêts à faire n'importe quoi en javascript. Vous n'aurez pas un niveau suffisant pour lire du Shakespeare dans le texte mais vous en saurez suffisamment pour demander votre chemin à Londres.
 
 # Javascript natif
+
+### Quelques notions de syntaxe
+
+A quoi ressemble Javascript rapidement...
+
+```javascript
+
+// ceci est une ligne de commentaire
+
+/*
+* Ce sont aussi
+* des lignes de commentaires
+*/
+
+// toto est une variable, let permet de déclarer une variable.
+let toto="un truc";
+
+// var et const permettent aussi de déclarer des variables mais nous ne les utiliserons pas ici, nous n'utiliserons que let
+var toto="un truc";
+const toto="un truc";
+
+// manger() est une fonction (on dit aussi méthode). 
+// Une fonction fait référence à une action, on distingue les fonctions  facilement car elles ont des parenthèses
+manger();
+
+//ici nous avons une fonction avec des arguments
+manger(starter, mainCourse, dessert);
+
+
+//toutes les lignes ci-dessous sont correctes...
+let hello="world";  // c'est la version qu'on va préférer
+let hello="world"   // sans le point virgule je n'aime pas (et ça vous coutera des points) mais ça marche aussi.
+let hello  =  'world'   // marche aussi avec de simples quotes et on note au passage que les espaces n'ont pas d'incidence non plus.
+
+//ces trois syntaxes sont correctes
+
+alert("hello world");
+
+// on peut sauter des lignes, c'est souvent utilisé pour éviter d'avoir de longues lignes incompréhensibles.
+alert(
+  "hello world"
+);
+
+// Cette version démontre que les indentations n'ont pas d'incidence en javascript. 
+alert(
+   "hello world"
+        );
+
+```
+
+En résumé on peut faire n'importe quoi avec les sauts de lignes, les points virgules et les espaces.
+Mais comme vous n'êtes pas des psychopathes vous allez indenter votre code de manière à ce qu'il soit lisible.
+
+#### Les choses obligatoires !
+
+Pour le reste 
+- Une `(` parenthèse ouverte doit toujours être fermée `)`
+- Des `[` crochets ouverts doivent toujours être fermés `]`
+- Des `{` accolades ouvertes doivent toujours être fermées `}`
+
+#### Les conventions fortement conseillées
+
+##### camelCase
+Toutes nos variables et toutes nos fonctions utiliseront [le format camelCase](https://wprock.fr/blog/conventions-nommage-programmation/#conventions-le-camel-case).
+Ce n'est pas obligatoire mais c'est une convention en javascript. 
+
+##### PascalCase
+Toutes nos Classes et tous les NomsDeFichierQuiContiennentUneClasse.js seront [au format PascalCase](https://wprock.fr/blog/conventions-nommage-programmation/#conventions-le-pascal-case).
+Ce n'est toujours pas obligatoire mais c'est aussi une convention en javascript. 
+
+##### $elementJQuery
+Un peu plus base dans ce document je vous présenterai jQuery, 
+retennez simplement que quand on utilisera un dollar  `$` devant une variable ça voudra dire que c'est du jquery et donc un élément html.
+
+```javascript
+  // ceci est l'élément html jQuery où s'affiche un score
+  $score1=$("#score-joueur-1");
+  
+  // ceci est le score du joueur 1 (on va dire qu'il a 188 points)
+  score1=188;
+```
+
 
 ### La console de votre navigateur
 
@@ -26,13 +111,18 @@ Copiez / collez ce code dans la console et appuyez sur ENTER
   }
 ```
 
-#### La console vous permet de *logger* des choses.
+#### La console vous permet surtout de *logger* des choses.
 Copiez / collez ce code dans votre fichier javascript principal
 
 ```javascript
   console.log("Hello world");
   console.log(new Date());
 ```
+
+C'est très très pratique car ça permet d'avoir un petit espion en dehors du jeu, 
+par exemple pour déterminer le résultat d'une addition, la vitesse d'une balle ou ce genre de choses...
+
+
 ### Un peu de Maths...
 
 ```javascript
@@ -80,14 +170,51 @@ Pour générer un chiffre aléatoire entre 0 et 100 on fera donc...
   console.log( Math.random() * 100 );
 ```
 
+### Les conditions, on les utilisera énormément...
+
+Si(la balle touche le mur){
+  fais ceci
+}Sinon{
+  fais celà
+}
+
 ```javascript
   //essayez ce code plusieurs fois d'affilée dans la console
-  if(Math.random()>0.5){
+  if( 10 > 5){
+    alert("touche le mur");
+  }else{
+    alert("touche pas le mur");
+  }
+```
+
+```javascript
+  //essayez ce code plusieurs fois d'affilée dans la console
+  if( Math.random() > 0.5){
     alert("gagné");
   }else{
     alert("perdu");
   }
 ```
+
+### Les opérateurs, on les utilisera énormément avec nos conditions
+
+```javascript
+  if(1+1 === 2){
+    console.log("On va afficher ça");
+  }else{
+     console.log("On va pas afficher ça");
+  }
+  
+  if(1+4 > 3){
+    console.log("On va afficher ça aussi");
+  }
+  
+  if(1+1+1 <= 3){
+    console.log("On va afficher ça encore");
+  }
+  
+```
+
 
 #### Convertir le texte "150px" en nombre 150
 
@@ -145,6 +272,28 @@ window.addEventListener("keyup", function (event) {
   event.preventDefault();
 }, true);
 ```
+## Les tableaux
+**Vous n'en aurez pas besoin au début.** 
+Les tableaux permettent de gérer des listes. 
+Par exemple des listes de sons à jouer aléatoirement, des listes de balles, des listes de bonus à toucher, etc...
+
+Je ne vous explique pas ici en détail comment ça marche, ce n'est pas la littérature qui manque à ce sujet.
+https://developer.mozilla.org/fr/docs/Learn/JavaScript/First_steps/tableaux
+
+Juste histoire que vous sachiez à quoi ça ressemble...
+```javascript
+//déclarer un tableau
+let shopping = ['pain', 'lait', 'fromage', 'houmous', 'nouilles'];
+shopping[0]; // renvoie "pain"
+shopping[1]; // renvoie "lait"
+
+//parcourir le tableau
+for (var i = 0; i < shopping.length; i++) { 
+  console.log( shopping[i] ); 
+}
+
+```
+
 
 ## Afficher la page en fullscreen
 
@@ -322,7 +471,7 @@ $monMachin.removeClass("nom-de-ma-classe-css");
 Attention on parle bien de javascript ici, pas de CSS. 
 Une classe CSS et une classe Javascript n'ont rien en commun si ce n'est le concept abstrait de classe qui est commun à la plupart des langages de programmation. 
 
-Pour créer une classe...
+#### Pour créer une classe...
 
 ```javascript
 
@@ -342,7 +491,7 @@ class Eleve{
 }
 ```
 
-Pour utiliser cette classe...
+#### Pour utiliser cette classe...
 
 ```javascript
 
@@ -351,7 +500,7 @@ jamesBond.parle("On ne vit que deux fois");
 
 ```
 
-## Pour gérer l'Audio
+# Pour gérer l'Audio
 
 La gestion du son n'est pas la priorité, ce sera la cerise sur le PONG.
 
