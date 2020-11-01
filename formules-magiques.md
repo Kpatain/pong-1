@@ -146,6 +146,10 @@ window.addEventListener("keyup", function (event) {
 }, true);
 ```
 
+## Afficher la page en fullscreen
+
+Google et stackoverflow sont vos amis pour cette fois :smiling_imp:
+
 # jQuery
 
 [jQuery](https://jquery.com/) est ce que l'on appelle un **framework** javascript.
