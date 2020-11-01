@@ -55,7 +55,7 @@ Car c'est un jeu qui partant d'une même base peut évoluer à l'infini (deux ba
 On pourrait coder notre PONG de diverses manières en utilisant diverses technologies. Ici nous allons utiliser...
 
 - HTML, CSS pour l'affichage (canvas hors cadre pédagogique aurait été préféré)
-- jQuery pour manipuler nos éléments graphiques (car c'est au programme)
+- jQuery pour manipuler nos éléments graphiques (car c'est au programme et car c'est bien pratique)
 - Des classes ES6 (c'est pas au programme mais on est en 2020 et je veux vous donner de bonnes habitudes)
 
 ## Style de code & pédagogie
