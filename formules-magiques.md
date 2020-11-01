@@ -126,10 +126,22 @@ setTimeout(
 
 Les notions d'écouteur sont un peu complexes à aborder sans avoir quelques semaines de pratique, je vous livre donc le code qui vous permettra de faire ce que vous voulez pour notre PONG sans pour autant vous l'expliquer.
 
+Savoir quand une touche est enfoncée et savoir de quelle touche il s'agit.
+
 ```javascript
 window.addEventListener("keydown", function (event) {
   if (event.defaultPrevented) { return}
-  console.log("La touche "+event.key+ "a été enfoncée")
+  console.log("La touche '"+event.key+ "' a été enfoncée")
+  event.preventDefault();
+}, true);
+```
+
+Savoir quand une touche est relachée et savoir de quelle touche il s'agit.
+
+```javascript
+window.addEventListener("keyup", function (event) {
+  if (event.defaultPrevented) { return}
+  console.log("La touche '"+event.key+ "' a été relachée")
   event.preventDefault();
 }, true);
 ```
@@ -161,9 +173,6 @@ let largeur = parseFloat(getComputedStyle($terrain, null).width.replace("px", ""
 console.log("élève en PLS");
 
 ```
-
-
-
 
 
 ## Pour installer jQuery
@@ -260,10 +269,54 @@ $monMachin.css("background-color","#FF0000");
 Il existe une fonction `position()` et une fonction `offset()` dans jQuery. 
 Ces fonctions qui permettent de manipuler les positions d'objets HTML sont très pratiques mais peuvent engendrer des bugs incompréhensibles quand on n'a pas suffisament de pratique d'HTML et CSS. **ON NE VA PAS LES UTILISER**.
 
+## Gérer les evênements de click souris et touch en jQuery
 
-# La programmation orientée Objet (POO)
+#### La version souris
+```javascript
+$monBouton.on("mousedown", function (event) {
+    event.preventDefault(); //je ne vous explique pas pour l'instant à quoi ça sert c'est trop complexe
+    console.log("tu as appuyé sur $monBouton");
+});
+$monBouton.on("mouseup", function (event) {
+    event.preventDefault();
+    console.log("tu as relaché la souris sur $monBouton");
+});
+```
+
+#### La même chose en tactile
+```javascript
+$monBouton.on("touchstart", function (event) {
+    event.preventDefault();
+    console.log("tu as appuyé sur $monBouton");
+});
+$monBouton.on("touchend", function (event) {
+    event.preventDefault();
+    console.log("tu as relaché sur $monBouton");
+});
+```
+
+## Ajouter ou supprimer des classes CSS avec jQuery
+
+https://api.jquery.com/addclass/
+
+https://api.jquery.com/removeClass/
+
+```javascript
+
+//ajouter une classe
+$monMachin.addClass("nom-de-ma-classe-css");
+//retirer une classe
+$monMachin.removeClass("nom-de-ma-classe-css");
+
+```
+
+
+# La Programmation Orientée Objet (POO)
 
 ## Classes javascript
+
+Attention on parle bien de javascript ici, pas de CSS. 
+Une classe CSS et une classe Javascript n'ont rien en commun si ce n'est le concept abstrait de classe qui est commun à la plupart des langages de programmation. 
 
 Pour créer une classe...
 
@@ -294,7 +347,13 @@ jamesBond.parle("On ne vit que deux fois");
 
 ```
 
-## Pour gérer le son
+## Pour gérer l'Audio
 
-à compléter
+La gestion du son n'est pas la priorité, ce sera la cerise sur le PONG.
+
+Pour gérer le son dans notre jeu, on utilisera la librairie sound.js.
+C'est un peu comme jQuery, c'est un framework qui nous simplifiera la vie.
+Vous n'aurez besoin que de ce qui est expliqué dans cette page: https://createjs.com/getting-started/soundjs
+
+
 
