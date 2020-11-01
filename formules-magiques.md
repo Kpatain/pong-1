@@ -44,20 +44,21 @@ Copiez / collez ce code dans votre fichier javascript principal
   // utiliser des variables
   let a = 10;
   let b = 5;
-  let c = a + b;
-  console.log(c);
+  let resultat = a + b;
+  console.log("resultat",resultat);
   
   // incrémenter pour aller plus vite
-  let a=0;
-  a++;
-  a++;
-  a++;
-  console.log(a);
-  
+  // c++; est équivalent à c = c+1; C'est simplement plus rapide à écrire.
+  let c=0;
+  c++;
+  c++;
+  c++;
+  console.log("c",c);
+
   //ou bien encore...
-  let b=10;
-  b+=5;
-  console.log(b);
+  let d=10;
+  d+=5;
+  console.log("d",d);
   
 ```
 
@@ -99,15 +100,39 @@ en [Number](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objet
 ```
 ## Faire des boucles temporelles
 
-à compléter...
+https://www.w3schools.com/jsref/met_win_setinterval.asp
 
+```javascript
+let i=0;
+setInterval(function(){
+    i++;
+    // affiche le résultat de i dans le titre de page toutes les 1000 millisecondes.
+    document.title=i; 
+}, 1000);
+```
 ## Faire un truc...mais plus tard
 
-à compléter...
+https://www.w3schools.com/jsref/met_win_settimeout.asp
+
+```javascript
+setTimeout(
+    function(){
+        alert("il faut se réveiller!");
+    },5000
+);
+```
 
 ## Ecouter les touches du clavier
 
-à compléter...
+Les notions d'écouteur sont un peu complexes à aborder sans avoir quelques semaines de pratique, je vous livre donc le code qui vous permettra de faire ce que vous voulez pour notre PONG sans pour autant vous l'expliquer.
+
+```javascript
+window.addEventListener("keydown", function (event) {
+  if (event.defaultPrevented) { return}
+  console.log("La touche "+event.key+ "a été enfoncée")
+  event.preventDefault();
+}, true);
+```
 
 # jQuery
 
