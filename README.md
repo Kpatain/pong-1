@@ -60,7 +60,7 @@ Mais il n'est pas exclu que dans d'autres cours on ne vous fasse pas travailler 
 
 ## Déroulement du cours
 
-Comme précédemment nous allons pratiquer en classe et dévelloper les grandes lignes au cours de nos 2 heures. 
+Comme précédemment nous allons pratiquer en classe et développer les grandes lignes au cours de nos 2 heures. 
 On fera le chemin ensemble. Parfois vous aurez du mal à suivre le rythme; les évangélistes de la semaine seront là pour veiller à ce que la semaine suivante tout le monde soit à peu près au même niveau.
 
 Parfois on ira très vite sur certaines notions plus complexes et moins essentielles. Certains plus expérimentés y trouverront leur intérêt, d'autres non, ce n'est pas grave.
