@@ -80,7 +80,7 @@ Ce n'est toujours pas obligatoire mais c'est aussi une convention en javascript.
 
 ##### $elementJQuery
 Un peu plus base dans ce document je vous présenterai jQuery, 
-retennez simplement que quand on utilisera un dollar  `$` devant une variable ça voudra dire que c'est du jquery et donc un élément html.
+retenez simplement ici que quand on utilisera un dollar  `$` devant une variable ça voudra dire que c'est du jquery et donc un élément html.
 
 ```javascript
   // ceci est l'élément html jQuery où s'affiche un score
