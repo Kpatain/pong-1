@@ -1,6 +1,6 @@
 # Une introduction à javascript
 
-Jusqu'ici vous avez vu du HTML et de la CSS, ces deux langages permettent d'afficher des media sur un écran et d'en arranger la présentation. Ces deux langages ne sont pas fait pour *programmer* réellement autre chose que ce qui s'affiche sur un écran ou une imprimante. **Javascript** lui; oui. 
+Jusqu'ici vous avez vu du HTML et de la CSS, ces deux langages permettent d'afficher des media sur un écran et d'en arranger la présentation. Ces deux langages ne sont pas fait pour *programmer* réellement autre chose que ce qui s'affiche sur un écran ou une imprimante. 
 
 Javascript va permettre de rendre votre HTML plus malin.
 
@@ -39,13 +39,38 @@ On apprendra par la pratique quelques notions techniques qui nous permmettront d
 
 Pour apprendre ce langage on va revenir en 1972 et on va coder un PONG... oui oui ce vieux jeux tout simple. Ce jeu sur le plan historique fait que nous sommes ici dans une classe dédiée au jeu vidéo. PONG est à l'origine de l'économie du jeu vidéo ni plus ni moins https://fr.wikipedia.org/wiki/Pong
 
+## Technologies abordées
+
 On pourrait coder notre PONG de diverses manières en utilisant diverses technologies. Ici nous allons utiliser...
 
 - HTML, CSS pour l'affichage (canvas hors cadre pédagogique aurait été préféré)
 - jQuery pour manipuler nos éléments graphiques (car c'est au programme)
-- Des classes ES6 (car on est en 2020 quand même)
+- Des classes ES6 (c'est pas au programme mais on est en 2020 et je veux vous donner de bonnes habitudes)
 
-En ce qui concerne le style de code, on va utiliser des termes français. Attention, *je ne vous encourage pas à utiliser du français dans vos projets futurs* pour autant, l'anglais est LA langue des programmeurs du monde entier. Si je fais ce choix aujourd'hui c'est simplement pour que vous distinguiez bien la différence entre ce que NOUS allons écrire et ce que le langage javavascript nous oblige à utiliser. D'autre part je souhaite que nous utilisions des termes très très précis de manière à ce que nous comprennions très très bien ce que nous écrivons et pourqoui nous l'écrivons.
+## Style de code & pédagogie
+
+En ce qui concerne le style de code, on va utiliser des termes français. Attention, **je ne vous encourage pas à utiliser du français dans vos projets futurs** pour autant, l'anglais est LA langue des programmeurs du monde entier. Si je fais ce choix aujourd'hui c'est simplement pour que vous distinguiez bien la différence entre ce que NOUS allons écrire et ce que le langage javavascript nous oblige à utiliser. D'autre part je souhaite que nous utilisions des termes très très précis de manière à ce que nous comprennions très très bien ce que nous écrivons et pourqoui nous l'écrivons.
+
+Je serai très attentif à votre qualité de code: Les indentations, les commentaires, la propreté de votre repo.
+
+## Graphisme
+
+Pour ce cours je vais êtres très directif, je vous imposerai le graphisme, ce sera MI NI MAL à souhait.
+Mais il n'est pas exclu que dans d'autres cours on ne vous fasse pas travailler sur des skins pour votre jeu :wink:.
+
+## Déroulement du cours
+
+Comme précédemment nous allons pratiquer en classe et dévelloper les grandes lignes au cours de nos 2 heures. 
+On fera le chemin ensemble. Parfois vous aurez du mal à suivre le rythme; les évangélistes de la semaine seront là pour veiller à ce que la semaine suivante tout le monde soit à peu près au même niveau.
+
+Parfois on ira très vite sur certaines notions plus complexes et moins essentielles. Certains plus expérimentés y trouverront leur intérêt, d'autres non, ce n'est pas grave.
+
+Je noterai vos projets quasiment à chaque scéance de manière à vous inciter à travailler moins mais plus régulièrement. Si vous attendez trop avant de mettre vos projets au carré, vous n'arriverez plus à suivre au bout de 2 semaines.
+
+Enfin d'ici quelques semaines je vous noterai en classe sur un exercice qu'il faudra réaliser sans autre aide qu'internet pour vous documenter (pas de chat, ni mail etc, on se comprend).
+
+
+
 
 
 
