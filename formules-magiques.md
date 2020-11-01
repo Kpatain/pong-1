@@ -5,7 +5,7 @@ Ici vous trouverez tous les ingrédients que nous allons utiliser pour notre PON
 Dans ce document, on ne rentre pas dans le détail, ce sera à vous de vous documenter grâce aux liens fournis si vous voulez aller plus loin.
 Si vous voulez une approche plus exhaustive [je vous conseille ce cours](https://developer.mozilla.org/fr/docs/Learn/JavaScript/First_steps)
 
-Pour se donner du courrage, dites vous que si vous maîtrisez bien tout ce qui est expliqué ici, que tout cela devient naturel c'est que vous serez prêts à faire n'importe quoi en javascript. Vous n'aurez pas un niveau suffisant pour lire du Shakespeare dans le texte mais vous en saurez suffisamment pour demander votre chemin à Londres.
+Pour se donner du courrage, dites vous que si vous maîtrisez bien tout ce qui est expliqué ici, que tout cela devient naturel c'est que vous serez prêts à faire n'importe quoi en javascript si vous y consacrez un peu de temps et de neuronnes. Vous n'aurez pas un niveau suffisant pour lire du Shakespeare dans le texte mais vous en saurez suffisamment pour demander votre chemin à Londres.
 
 # Javascript natif
 
