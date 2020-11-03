@@ -62,8 +62,10 @@ Pour la note, j'attends de vous que...
 ## Evangélistes de la semaine
 
 J'aimerai que d'ici **mercredi** vous me fassiez [un tableau comme celui là](https://github.com/davidmarsprof/unserious-game/blob/main/team.md) dans
-[votre repo](https://github.com/VinekNet/pong_organisation)
+[votre repo](https://github.com/VinekNet/pong_organisation).
 
-Comme toutes les semaine aidez ce qui galèrent **et qui en font la demande**.
-Faites passer le mot qu'il faut pas attendre jeudi soir pour se manifester...
+Je vous invite à réorganiser ce tableau afin de mettre en haut ceux qui sont plutôt à l'aise et en bas ce qui ont plus de mal. L'idée n'est pas de faire un classement mais simplement dites vous que j'ai plutôt tendance à noter en premier ce qui sont en haut et à noter en dernier ceux qui sont en bas.
+
+Comme toutes les semaines aidez ce qui galèrent **et qui en font la demande**.
+Petit conseil, faites passer le mot qu'il faut pas attendre jeudi soir pour se manifester...
 
