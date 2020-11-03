@@ -75,36 +75,37 @@ Petit conseil, faites passer le mot qu'il faut pas attendre jeudi soir pour se m
 
 réviser votre programme de Math de CM1/CM2
 
-#### On va faire...
+#### On va...
 
-- créer des classes ES6 pour notre terrain et notre balle
+- créer des classes ES6 pour notre terrain et notre balle 
+- dissocier les fonctions de calcul des fonctions d'affichage :eyes:
 - faire démarrer la balle dans une direction ou dans l'autre aléatoirement
 - faire rebondir la balle
 - faire changer de couleur la `border` du terrain (#00FF00) quand la balle le touche.
-- faire accélerer notre balle quand elle touche les côtés gauche ou droite
-- donner une vitesse d'accélération maximum à notre balle
 - intégrer les raquettes HTML + CSS + classes JS
-- faire bouger les raquettes toutes seules
+- faire bouger les raquettes toutes seules :open_mouth:
 
 # Day 03 2020/11/16
 
-#### On va faire...
+#### On va...
 
 - faire rebondir la balle sur les raquettes
 - faire perdre / gagner les joueurs
-- faire rebondir la balle un peu plus vers le haut quand elle touche le haut de la raquette, un peu plus vers le bas quand elle touche le bas (cette notion Mathématique fort complèxe s'appelle un produit en croix)
+- faire rebondir la balle un peu plus vers le haut quand elle touche le haut de la raquette, un peu plus vers le bas quand elle touche le bas (cette notion Mathématique fort complexe s'appelle un produit en croix)
 - faire bouger les raquettes avec le clavier
+- faire accélerer petit à petit notre balle quand elle touche les raquettes
+- donner une vitesse d'accélération maximum à notre balle
 
 # Day 04 2020/11/23
 
-#### On va faire...
+#### On va...
 
 - Gérer les scores HTML + CSS + classes JS
 - Gérer l'écran de démarrage HTML + CSS + classes JS + intégration du fullscreen
 
 # Day 05 2020/11/30
 
-#### On va faire...
+#### On va faire... :musical_keyboard:
 
 - 2 heures pour bien assimiler tout ce qu'on a fait ou faire ce qu'on aura pas eu le temps de faire
 - Intégrer le son de piano pour ceux qui se sentent.
@@ -115,8 +116,8 @@ réviser votre programme de Math de CM1/CM2
 
 - partiel
 
-# Day 07 2020/12/14
+# Day 07 2020/12/14 :santa:  :trophy:
 
 #### On va faire...
 
-Tournoi de PONG ou partiel selon comment on aura avancé
+Un Tournoi de PONG ou partiel selon comment on aura avancé
