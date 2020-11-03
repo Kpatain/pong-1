@@ -31,14 +31,15 @@ var toto="un truc";
 const toto="un truc";
 
 // manger() est une fonction (on dit aussi méthode). 
-// Une fonction fait référence à une action, on distingue les fonctions  facilement car elles ont des parenthèses
-// Une variable est un verbe sur le plan liguistique. Un verbe sans sujet n'a souvent pas beaucoup de sens.
+// Une fonction fait référence à une action, on distingue les fonctions facilement car elles ont des parenthèses
+// Une fonction est un verbe sur le plan liguistique.
 manger();
 
 //ici nous avons une fonction avec des arguments
 manger(starter, mainCourse, dessert);
 
-//ici on a une phrase qui commence à ressembler à un programme
+// Un verbe sans sujet n'a souvent pas beaucoup de sens.
+// ici on a une phrase qui commence à ressembler à un programme
 david.manger("Salade", "Pizza", 2 * fraises + 999 * chantilly );
 
 //toutes les lignes ci-dessous sont correctes...
