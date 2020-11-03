@@ -22,20 +22,24 @@ A quoi ressemble Javascript rapidement...
 * des lignes de commentaires
 */
 
-// toto est une variable, let permet de déclarer une variable.
+// toto est une variable, let permet de déclarer une variable. 
+// Une variable est un sujet sur le plan liguistique, ce sujet comme son nom l'indique peut varier, en d'autres termes changer de valeur.
 let toto="un truc";
 
-// var et const permettent aussi de déclarer des variables mais nous ne les utiliserons pas ici, nous n'utiliserons que let
+// var et const permettent aussi de déclarer des variables (ou constantes dans le second cas) mais nous ne les utiliserons pas ici, nous n'utiliserons que let
 var toto="un truc";
 const toto="un truc";
 
 // manger() est une fonction (on dit aussi méthode). 
 // Une fonction fait référence à une action, on distingue les fonctions  facilement car elles ont des parenthèses
+// Une variable est un verbe sur le plan liguistique. Un verbe sans sujet n'a souvent pas beaucoup de sens.
 manger();
 
 //ici nous avons une fonction avec des arguments
 manger(starter, mainCourse, dessert);
 
+//ici on a une phrase qui commence à ressembler à un programme
+david.manger("Salade", "Pizza", 2 * fraises + 999 * chantilly );
 
 //toutes les lignes ci-dessous sont correctes...
 let hello="world";  // c'est la version qu'on va préférer
