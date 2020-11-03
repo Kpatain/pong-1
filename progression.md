@@ -69,3 +69,54 @@ Je vous invite à réorganiser ce tableau afin de mettre en haut ceux qui sont p
 Comme toutes les semaines aidez ce qui galèrent **et qui en font la demande**.
 Petit conseil, faites passer le mot qu'il faut pas attendre jeudi soir pour se manifester...
 
+# Day 02 2020/11/09
+
+#### Préalables
+
+réviser votre programme de Math de CM1/CM2
+
+#### On va faire...
+
+- créer des classes ES6 pour notre terrain et notre balle
+- faire démarrer la balle dans une direction ou dans l'autre aléatoirement
+- faire rebondir la balle
+- faire changer de couleur la `border` du terrain (#00FF00) quand la balle le touche.
+- faire accélerer notre balle quand elle touche les côtés gauche ou droite
+- donner une vitesse d'accélération maximum à notre balle
+- intégrer les raquettes HTML + CSS + classes JS
+- faire bouger les raquettes toutes seules
+
+# Day 03 2020/11/16
+
+#### On va faire...
+
+- faire rebondir la balle sur les raquettes
+- faire perdre / gagner les joueurs
+- faire rebondir la balle un peu plus vers le haut quand elle touche le haut de la raquette, un peu plus vers le bas quand elle touche le bas (cette notion Mathématique fort complèxe s'appelle un produit en croix)
+- faire bouger les raquettes avec le clavier
+
+# Day 04 2020/11/23
+
+#### On va faire...
+
+- Gérer les scores HTML + CSS + classes JS
+- Gérer l'écran de démarrage HTML + CSS + classes JS + intégration du fullscreen
+
+# Day 05 2020/11/30
+
+#### On va faire...
+
+- 2 heures pour bien assimiler tout ce qu'on a fait ou faire ce qu'on aura pas eu le temps de faire
+- Intégrer le son de piano pour ceux qui se sentent.
+
+# Day 06 2020/12/07
+
+#### Vous allez faire...
+
+- partiel
+
+# Day 07 2020/12/14
+
+#### On va faire...
+
+Tournoi de PONG ou partiel selon comment on aura avancé
