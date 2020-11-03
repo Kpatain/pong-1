@@ -73,26 +73,25 @@ Petit conseil, faites passer le mot qu'il faut pas attendre jeudi soir pour se m
 
 #### Préalables
 
-réviser votre programme de Math de CM1/CM2
+réviser votre programme de Math de CM1/CM2 :baby:
 
 #### On va...
 
 - créer des classes ES6 pour notre terrain et notre balle 
 - dissocier les fonctions de calcul des fonctions d'affichage :eyes:
 - faire démarrer la balle dans une direction ou dans l'autre aléatoirement
-- faire rebondir la balle
+- faire rebondir la balle :dizzy:
 - faire changer de couleur la `border` du terrain (#00FF00) quand la balle le touche.
 - intégrer les raquettes HTML + CSS + classes JS
 - faire bouger les raquettes toutes seules :open_mouth:
 
-# Day 03 2020/11/16
+# Day 03 2020/11/16 :heart_eyes:
 
 #### On va...
 
 - faire rebondir la balle sur les raquettes
 - faire perdre / gagner les joueurs
-- faire rebondir la balle un peu plus vers le haut quand elle touche le haut de la raquette, un peu plus vers le bas quand elle touche le bas (cette notion Mathématique fort complexe s'appelle un produit en croix)
-- faire bouger les raquettes avec le clavier
+- faire bouger les raquettes avec le clavier :heart_eyes: :sunglasses:
 - faire accélerer petit à petit notre balle quand elle touche les raquettes
 - donner une vitesse d'accélération maximum à notre balle
 
@@ -100,17 +99,22 @@ réviser votre programme de Math de CM1/CM2
 
 #### On va...
 
+- faire rebondir la balle un peu plus vers le haut quand elle touche le haut de la raquette, un peu plus vers le bas quand elle touche le bas (cette notion Mathématique fort complexe s'appelle un produit en croix) :dizzy_face:
 - Gérer les scores HTML + CSS + classes JS
 - Gérer l'écran de démarrage HTML + CSS + classes JS + intégration du fullscreen
 
-# Day 05 2020/11/30
+# Day 05 2020/11/30 :musical_keyboard: :headphones:
 
-#### On va faire... :musical_keyboard:
+#### Penser à...
+
+- prendre un :headphones:
+
+#### On va faire... 
 
 - 2 heures pour bien assimiler tout ce qu'on a fait ou faire ce qu'on aura pas eu le temps de faire
 - Intégrer le son de piano pour ceux qui se sentent.
 
-# Day 06 2020/12/07
+# Day 06 2020/12/07 :scream: :scream: :scream:
 
 #### Vous allez faire...
 
