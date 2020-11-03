@@ -3,6 +3,7 @@
 - [Notre exemple de jeu](https://davidmarsprof.github.io/pong/exemple)
 - [Une liste de formules magique](formules-magiques.md)
 - [Du piano en MP3](https://github.com/davidmarsprof/pong/tree/main/exemple/sound)
+- [Un compte rendu de notre progression](progression.md)
 
 # Une introduction à javascript
 
