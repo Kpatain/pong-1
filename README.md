@@ -23,7 +23,7 @@ Au delà de sites web ou de jeux web, ce langage est de plus en plus utilisé po
 Javascript est un *langage*, au même titre que Python, le français ou l'anglais.
 
 Ma fille de 4 ans parle assez mal le français, ma fille de 8 ans le parle mieux mais l'écrit assez mal et Bernard Pivot lui est plutôt à l'aise dans les deux cas.
-De la même manière je parle probablement mieux Javascript que vous, mais ça peut changer. Je pense être plutôt bon pour exprimer avec pragmatisme un besoin en javascript je suis par contre assez mauvais en vocabulaire comparé à certains de mes collègues.
+De la même manière je parle probablement mieux Javascript que vous, mais ça peut changer. Je pense être plutôt bon pour exprimer avec pragmatisme un besoin en javascript, je suis par contre assez mauvais en vocabulaire comparé à certains de mes collègues. Pour palier à ça je me sers d'un [dictionnaire](https://www.w3schools.com/js/default.asp) en permanence et [je m'inspire](https://stackoverflow.com/questions/tagged/javascript) beaucoup des autres quand je bloque.
 
 On peut utiliser la langue française pour écrire des poêmes, des modes d'emploi, des bouquins, du slam, des actualités, des emails, des livres, des blagues, des recettes de cuisine.
 On Peut utiliser javascript pour écrire des jeux, des programmes de comptabilité, des formulaires d'adhésion à une newsletter, piloter des casques de réalité virtuelle, des chats, des bots, faire tourner Netflix etc...
