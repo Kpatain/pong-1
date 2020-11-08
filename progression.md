@@ -86,6 +86,7 @@ réviser votre programme de Math de CM1/CM2 :baby:
 - intégrer les raquettes HTML + CSS + classes JS
 - faire bouger les raquettes toutes seules :open_mouth:
 
+Qualité de code
 - (Essayer d') installer un [pluggin dans vs code](https://marketplace.visualstudio.com/items?itemName=Gydunhn.javascript-essentials)
 - apprendre à commenter proprement notre code pour faire de javascript un langage un plus typé qu'il ne l'est.
 
