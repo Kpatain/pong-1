@@ -77,6 +77,7 @@ réviser votre programme de Math de CM1/CM2 :baby:
 
 #### On va...
 
+
 - créer des classes ES6 pour notre terrain et notre balle 
 - dissocier les fonctions de calcul des fonctions d'affichage :eyes:
 - faire démarrer la balle dans une direction ou dans l'autre aléatoirement
@@ -84,6 +85,10 @@ réviser votre programme de Math de CM1/CM2 :baby:
 - faire changer de couleur la `border` du terrain (#00FF00) quand la balle le touche.
 - intégrer les raquettes HTML + CSS + classes JS
 - faire bouger les raquettes toutes seules :open_mouth:
+
+- (Essayer d') installer un [pluggin dans vs code](https://marketplace.visualstudio.com/items?itemName=Gydunhn.javascript-essentials)
+- apprendre à commenter proprement notre code pour faire de javascript un langage un plus typé qu'il ne l'est.
+
 
 # Day 03 2020/11/16 :heart_eyes:
 
