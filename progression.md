@@ -90,6 +90,18 @@ Qualité de code
 - (Essayer d') installer un [pluggin dans vs code](https://marketplace.visualstudio.com/items?itemName=Gydunhn.javascript-essentials)
 - apprendre à commenter proprement notre code pour faire de javascript un langage un plus typé qu'il ne l'est.
 
+## Contrôle continu
+
+Je noterai vos projets à partir de **vendredi**, cette semaine pas de cadeau.
+
+Pour la note, j'attends de vous que...
+
+- votre projet respecte ce qui a été expliqué plus haut
+- votre repo soit *propre*
+- vos noms de variables soient en **français** 
+- votre code Javascript et CSS soit bien indenté et commenté avec vos propres mots
+- votre code javascript respecte les conventions décrites un peu partout [ici](formules-magiques.md). 
+
 
 # Day 03 2020/11/16 :heart_eyes:
 
