@@ -66,10 +66,10 @@ J'aimerai que d'ici **mercredi** vous me fassiez [un tableau comme celui là](ht
 
 Je vous invite à réorganiser ce tableau afin de mettre en haut ceux qui sont plutôt à l'aise et en bas ce qui ont plus de mal. L'idée n'est pas de faire un classement mais simplement dites vous que j'ai plutôt tendance à noter en premier ce qui sont en haut et à noter en dernier ceux qui sont en bas.
 
-Comme toutes les semaines aidez ce qui galèrent **et qui en font la demande**.
+Comme toutes les semaines aidez ceux qui galèrent **et qui en font la demande**.
 Petit conseil, faites passer le mot qu'il faut pas attendre jeudi soir pour se manifester...
 
-# Day 02 2020/11/09
+# Day 02 2020/11/09 :mask:
 
 #### Préalables
 
@@ -77,40 +77,54 @@ réviser votre programme de Math de CM1/CM2 :baby:
 
 #### On va...
 
-
 - créer des classes ES6 pour notre terrain et notre balle 
 - dissocier les fonctions de calcul des fonctions d'affichage :eyes:
 - faire démarrer la balle dans une direction ou dans l'autre aléatoirement
 - faire rebondir la balle :dizzy:
-- faire changer de couleur la `border` du terrain (#00FF00) quand la balle le touche.
-- intégrer les raquettes HTML + CSS + classes JS
-- faire bouger les raquettes toutes seules :open_mouth:
 
 Qualité de code
 - (Essayer d') installer un [pluggin dans vs code](https://marketplace.visualstudio.com/items?itemName=Gydunhn.javascript-essentials)
 - apprendre à commenter proprement notre code pour faire de javascript un langage un plus typé qu'il ne l'est.
 
-## Contrôle continu
+## Contrôle continu :cold_sweat:
 
-Je noterai vos projets à partir de **vendredi**, cette semaine pas de cadeau.
+Je noterai vos projets à partir de **vendredi 13**, ne soyez pas supersticieux, si vous prennez une heure ou deux pour vous concentrer sur le projet, ça ira et sinon je ne pense pas qu'il y ait de miracles. A partir de maintenant les écarts vont se creuser entre ceux qui s'investissent et ceux qui se laissent porter, c'est pas le moment de lâcher et **je me tiens à votre disposition sur le chat si vous voulez que je relise votre code ou vous donne des conseils** mais c'est à vous de faire la démarche.
 
 Pour la note, j'attends de vous que...
 
-- votre projet respecte ce qui a été expliqué plus haut
+- votre projet respecte ce qui a été fait en cours (trop lentement pour certains, trop vite pour d'autres; je sais)
 - votre repo soit *propre*
 - vos noms de variables soient en **français** 
 - votre code Javascript et CSS soit bien indenté et commenté avec vos propres mots
 - votre code javascript respecte les conventions décrites un peu partout [ici](formules-magiques.md). 
 
+Pour me prouver que vous avez bien assimilé (et toujours pour la note...)
 
-# Day 03 2020/11/16 :heart_eyes:
+- intégrer les raquettes HTML + CSS + classes JS (les raquettes font 25% de la hauteur du terrain et 10px de large)
+- faire bouger les raquettes toutes seules de haut en bas :open_mouth:
+- faire en sorte que la balle ne dépase pas du terrain à droite et en bas (soustraction de la taille de la balle)
+
+Je n'attends pas de vous que la balle rebondisse sur les raquettes, si vous voulez le faire et si vous voulez enchainer sur le cours suivant allez-y, mais faites le en respectant le style de code du reste.
+
+## Evangélistes de la semaine
+
+Vous aurez vous même pas mal de chose à assimiler, donc assimilez rapidement votre travail perso pour ensuite arriver à le transmettre aux autres.
+Comme toutes les semaines aidez ceux qui galèrent **et qui en font la demande**.
+Petit conseil, faites passer le mot qu'il faut pas attendre jeudi soir pour se manifester...
+
+
+
+
+# Day 03 2020/11/16 :mask:  :heart_eyes:
 
 #### On va...
 
+- Mettre nos classes dans des fichiers.js séparés.
+- faire changer de couleur la `border` du terrain (#00FF00) quand la balle le touche.
 - faire rebondir la balle sur les raquettes
 - faire perdre / gagner les joueurs
 - faire bouger les raquettes avec le clavier :heart_eyes: :sunglasses:
-- faire accélerer petit à petit notre balle quand elle touche les raquettes
+- faire accélerer petit à petit notre balle quand elle touche les raquettes (pas les murs)
 - donner une vitesse d'accélération maximum à notre balle
 
 # Day 04 2020/11/23
