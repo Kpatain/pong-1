@@ -75,12 +75,11 @@ Petit conseil, faites passer le mot qu'il faut pas attendre jeudi soir pour se m
 
 réviser votre programme de Math de CM1/CM2 :baby:
 
-#### On va...
+#### On a...
 
-- créer des classes ES6 pour notre terrain et notre balle 
-- dissocier les fonctions de calcul des fonctions d'affichage :eyes:
-- faire démarrer la balle dans une direction ou dans l'autre aléatoirement
-- faire rebondir la balle :dizzy:
+- créé des classes ES6 pour notre terrain et notre balle 
+- dissocié les fonctions de calcul des fonctions d'affichage :eyes:
+- fait rebondir la balle :dizzy:
 
 Qualité de code
 - (Essayer d') installer un [pluggin dans vs code](https://marketplace.visualstudio.com/items?itemName=Gydunhn.javascript-essentials)
@@ -100,12 +99,13 @@ Pour la note, j'attends de vous que...
 
 Pour me prouver que vous avez bien assimilé (et toujours pour la note...)
 
+- faire démarrer la balle dans une direction ou dans l'autre aléatoirement (aléatoire en anglais ça se dit...?)
 - intégrer les raquettes HTML + CSS + classes JS (les raquettes font 25% de la hauteur du terrain et 10px de large)
-- cacher (en css) les murs (les `borders`) gauche et droit du terrain pour que ça ressemble à [notre pong final](https://davidmarsprof.github.io/pong/exemple/).
+- cacher (en css) les murs (les `borders`) gauche et droite du terrain pour que ça ressemble à [notre pong final](https://davidmarsprof.github.io/pong/exemple/).
 - faire bouger les raquettes toutes seules de haut en bas :open_mouth:
 - faire en sorte que la balle ne dépase pas du terrain à droite et en bas (soustraction de la taille de la balle)
 
-Je n'attends pas de vous que la balle rebondisse sur les raquettes, si vous voulez le faire et si vous voulez enchaîner sur les cours suivants allez-y, mais faites-le dans l'ordre et en respectant le style de code du reste.
+Je n'attends pas de vous que la balle rebondisse sur les raquettes, si vous voulez le faire et si vous voulez enchaîner sur les cours suivants allez-y, mais faites-le dans l'ordre et en respectant le style de code du reste s'il vous plait.
 
 ## Evangélistes de la semaine
 
