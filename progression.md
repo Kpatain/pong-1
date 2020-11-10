@@ -103,13 +103,13 @@ Pour me prouver que vous avez bien assimilé (et toujours pour la note...)
 - intégrer les raquettes HTML + CSS + classes JS (les raquettes font 25% de la hauteur du terrain et 10px de large)
 - cacher (en css) les murs (les `borders`) gauche et droite du terrain pour que ça ressemble à [notre pong final](https://davidmarsprof.github.io/pong/exemple/).
 - faire bouger les raquettes toutes seules de haut en bas :open_mouth:
-- faire en sorte que la balle ne dépase pas du terrain à droite et en bas (soustraction de la taille de la balle)
+- faire en sorte que la balle ne dépasse pas du terrain à droite et en bas (soustraction de la taille de la balle)
 
 Je n'attends pas de vous que la balle rebondisse sur les raquettes, si vous voulez le faire et si vous voulez enchaîner sur les cours suivants allez-y, mais faites-le dans l'ordre et en respectant le style de code du reste s'il vous plait.
 
 ## Evangélistes de la semaine
 
-Vous aurez vous même pas mal de chose à assimiler, donc assimilez rapidement votre travail perso pour ensuite arriver à le transmettre aux autres.
+Vous aurez vous même pas mal de choses à assimiler, donc assimilez rapidement votre travail perso pour ensuite arriver à le transmettre aux autres.
 Comme toutes les semaines aidez ceux qui galèrent **et qui en font la demande**.
 Petit conseil, faites passer le mot qu'il ne faut pas attendre jeudi soir pour se manifester...
 
