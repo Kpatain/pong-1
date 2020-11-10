@@ -82,8 +82,8 @@ réviser votre programme de Math de CM1/CM2 :baby:
 - fait rebondir la balle :dizzy:
 
 Qualité de code
-- (Essayer d') installer un [pluggin dans vs code](https://marketplace.visualstudio.com/items?itemName=Gydunhn.javascript-essentials)
-- apprendre à commenter proprement notre code pour faire de javascript un langage un plus typé qu'il ne l'est.
+- **Essayé** d'installer un [pluggin dans vs code](https://marketplace.visualstudio.com/items?itemName=Gydunhn.javascript-essentials) et ça n'a pas été possible.
+- **Du coup on n'a pas appris** à commenter proprement notre code pour faire de javascript un langage un plus typé qu'il ne l'est.
 
 ## Contrôle continu :cold_sweat:
 
