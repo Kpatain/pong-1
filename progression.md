@@ -99,7 +99,7 @@ Pour la note, j'attends de vous que...
 
 Pour me prouver que vous avez bien assimilé (et toujours pour la note...)
 
-- faire démarrer la balle dans une direction ou dans l'autre aléatoirement (aléatoire en anglais ça se dit...?)
+- faire démarrer la balle dans une direction ou dans l'autre aléatoirement ([aléatoire en anglais ça se dit...](https://github.com/davidmarsprof/pong/blob/main/formules-magiques.md#ma-fonction-pr%C3%A9f%C3%A9r%C3%A9e-mathrandom))
 - intégrer les raquettes HTML + CSS + classes JS (les raquettes font 25% de la hauteur du terrain et 10px de large)
 - cacher (en css) les murs (les `borders`) gauche et droite du terrain pour que ça ressemble à [notre pong final](https://davidmarsprof.github.io/pong/exemple/).
 - faire bouger les raquettes toutes seules de haut en bas :open_mouth:
