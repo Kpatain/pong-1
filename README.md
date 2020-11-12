@@ -1,9 +1,10 @@
 # Ressources pour ce cours
 
 - [Notre exemple de jeu](https://davidmarsprof.github.io/pong/exemple)
-- [Une liste de formules magique](formules-magiques.md)
-- [Du piano en MP3](https://github.com/davidmarsprof/pong/tree/main/exemple/sound)
 - [Un compte rendu de notre progression](progression.md)
+- [Une liste de formules magique](formules-magiques.md)
+- [Une petite réflexion sur le déplacement de la balle](deplacement-de-la-balle.md)
+- [Du piano en MP3](https://github.com/davidmarsprof/pong/tree/main/exemple/sound)
 - [Le repo des évangélistes](https://github.com/VinekNet/pong_organisation)
 - [Liste des projets](https://github.com/VinekNet/pong_organisation/blob/main/team.md)
 # Une introduction à javascript
