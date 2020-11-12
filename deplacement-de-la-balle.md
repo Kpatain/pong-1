@@ -19,7 +19,7 @@ A vrai dire à ce stade il fonctionnera sans doute déjà bien si vous appliquez
 mais il faut observer quelques limites pour que ça reste jouable.
 
 - Si la vitesse Y est égale à 0 alors la balle va filer tout droit.
-- Si la vitesse X et égale à la vitesse X alors on aura un déplacement en diagonale à 45 degrés
+- Si la vitesse Y et égale à la vitesse X alors on aura un déplacement en diagonale à 45 degrés
 - Si le sens Y est positif ça descend.
 - Si le sens Y est négatif ça monte.
 - Si la vitesse Y est supérieure à la vitesse X alors on aura un déplacement qui touchera plus souvent les murs que les raquettes 
