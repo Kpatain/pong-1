@@ -117,11 +117,15 @@ Petit conseil, faites passer le mot qu'il ne faut pas attendre jeudi soir pour s
 
 #### On va...
 
+- Revenir sur la notion de classe Css ET Js pour nos raquettes (Certains sont passés à côté du concept et on les excuse car c'est pas évident).
 - Mettre nos classes dans des fichiers.js séparés.
-- faire changer de couleur la `border` du terrain (#00FF00) quand la balle le touche.
-- faire rebondir la balle sur les raquettes
-- faire perdre / gagner les joueurs
 - faire bouger les raquettes avec le clavier :heart_eyes: :sunglasses:
+- faire perdre / gagner les joueurs
+- faire rebondir la balle sur les raquettes
+
+Si on a le temps...
+
+- faire changer de couleur la `border` du terrain et des raquettes (#00FF00) quand la balle les touche (ça fait pas fonctionner le jeu mais ça le rend plus sympa)
 - faire accélerer petit à petit notre balle quand elle touche les raquettes (pas les murs)
 - donner une vitesse d'accélération maximum à notre balle
 
