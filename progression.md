@@ -120,8 +120,8 @@ Petit conseil, faites passer le mot qu'il ne faut pas attendre jeudi soir pour s
 - Revenir sur la notion de classe Css ET Js pour nos raquettes (Certains sont passés à côté du concept et on les excuse car c'est pas évident).
 - Mettre nos classes dans des fichiers.js séparés.
 - faire bouger les raquettes avec le clavier :heart_eyes: :sunglasses:
-- faire perdre / gagner les joueurs
 - faire rebondir la balle sur les raquettes
+- faire perdre / gagner les joueurs
 
 Si on a le temps...
 
