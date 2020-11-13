@@ -129,6 +129,10 @@ Si on a le temps...
 - faire accélerer petit à petit notre balle quand elle touche les raquettes (pas les murs)
 - donner une vitesse d'accélération maximum à notre balle
 
+## Contrôle continu :cold_sweat:
+
+Je complèterai cette section après le cours et en fonction de comment la classe a avancé en moyenne.
+
 # Day 04 2020/11/23
 
 #### On va...
@@ -153,6 +157,8 @@ Si on a le temps...
 #### Vous allez faire...
 
 - partiel
+
+Ne vous inquiétez pas, tout ce que je vous demanderai vous l'aurez déjà fait et pratiqué en cours. Ce partiel sert à valider que vous l'avez bien compris et non pas simplement copié/collé. Vous devrez créer un nouveau repo github + github page pour me rendre votre travail donc entrainez vous histoire de pas passer 2 heures à essayer de publier un site sur github.
 
 # Day 07 2020/12/14 :santa:  :trophy:
 
