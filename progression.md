@@ -131,7 +131,7 @@ Si on a le temps...
 
 ## Contrôle continu :cold_sweat:
 
-Je complèterai cette section après le cours et en fonction de comment la classe a avancé en moyenne.
+Je complèterai cette section après le cours en fonction de comment on aura avancé.
 
 # Day 04 2020/11/23
 
