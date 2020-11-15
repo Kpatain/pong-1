@@ -76,6 +76,10 @@ Pour le reste, je ne rentre pas dans les détails, quelques screen shot seront p
 
 ![Librairies](webstorm-config-jquery.png)
 
+Du coup votre éditeur comprendra jQuery et il vous proposera des trucs cools quand vous utiliserez du jQuery
+
+![Librairies](webstorm-config-jquery-2.png)
+
 
 ## Afficher les paramètres de fonction
 
