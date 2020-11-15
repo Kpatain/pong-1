@@ -1,6 +1,6 @@
 # Webstorm c'est quoi ?
 
-C'est un logiciel pour éditer du code. A l'inverse de Visual Studio qui est très généraliste, Webstorm se focalise sur les langages WEB (Javascript, HTML, CSS + dérivés).
+C'est un logiciel pour éditer du code. A l'inverse de Visual Studio qui est très généraliste, Webstorm se focalise sur les langages WEB (Javascript, HTML, CSS, WebGl, Canvas, SVG + dérivés).
 
 ### JetBrain (l'éditeur du logiciel) et sa suite logicielle
 WebStorm fait partie d'une famille de logiciels spécialisés particulièrement appréciés par l'écosystème du Jeu Vidéo. Je vous laisse regarder les références en bas de la page qui suit, vous verrez qu'on ne parle pas d'un éditeur de logiciel annodin. Oui oui le créateur d'Unity utilise leurs logiciels, mais aussi quelque petites sociétés comme Ubi, Nintendo, Epic...
