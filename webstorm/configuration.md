@@ -11,7 +11,17 @@ https://www.jetbrains.com/fr-fr/gamedev/
 Jetbrain a récemment inventé un langage nommé [Kotlin](https://developer.android.com/kotlin?hl=fr). Ce langage est devenu le langage officel pour Android, rien que ça!
 
 
-## Les avantages de Websorm par rapport à Visual Studio
+
+
+# Pour installer WebStorm
+https://www.jetbrains.com/fr-fr/webstorm/download/#section=windows
+
+Vous pouvez utiliser la version d'évaluation pendant 30 jours. La version payante n'est pas très chère mais on va voir avec l'école si vous ne pouvez pas avoir des licences éducation gratuites.
+
+
+
+
+# Les avantages de Websorm par rapport à Visual Studio
 
 Soyons clairs tout ce que permet Webstorm est possible avec Visual Studio. Pourquoi alors utiliser Webstorm?
 
@@ -58,10 +68,6 @@ Ce que va principalement vous apporter WebStorm (ou tout autre logiciel de la ga
    
 
 
-# Pour installer WebStorm
-https://www.jetbrains.com/fr-fr/webstorm/download/#section=windows
-
-Vous pouvez utiliser la version d'évaluation pendant 30 jours. La version payante n'est pas très chère mais on va voir avec l'école si vous ne pouvez pas avoir des licences éducation gratuites.
 
 # Quelques tips pour profiter pleinement de WebStorm
 
