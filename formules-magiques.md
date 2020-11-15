@@ -492,6 +492,15 @@ class Eleve{
     let blabla="My name is "+ this.nom +", "+this.nomEtPrenom+", je voulais vous dire: "+phrase;
     alert(blabla);
   }
+  /**
+  * Renvoie le nom et le prénom
+  * @returns {String}
+  **/
+  get nomEtPrenom(){
+    return this.prenom+" "+this.nom
+  }
+  
+  
 }
 ```
 
