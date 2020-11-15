@@ -485,7 +485,6 @@ class Eleve{
     this.nom=nom;
     this.prenom=prenom;
     this.ecole="ETPA";
-    this.nomEtPrenom=this.prenom+" "+this.nom;
   }
   //fait parler l'élève
   parle(phrase){
@@ -510,6 +509,9 @@ class Eleve{
 
 let jamesBond=new Eleve("Bond","James");
 jamesBond.parle("On ne vit que deux fois");
+
+let donald=new Eleve("Duck","Donald");
+donald.parle("Ne pas me confondre avec un président des Etats Unis");
 
 ```
 
