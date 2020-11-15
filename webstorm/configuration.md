@@ -17,6 +17,17 @@ Soyons clairs tout ce que permet Webstorm est possible avec Visual Studio. Pourq
 
 Car l'essentiel des fonctionnalités *intelligentes* sont déjà intégrées dans WebStorm. Dans Visual Studio il faut installer et configurer beaucoup de pluggins et parfois passer par des lignes de commande pour que ça fonctionne.
 
+#### On ne va pas se prendre trop la tête...
+
+Avant de configurer votre éditeur, je vous conseille tout simplement de l'essayer. WebStorm n'est pas plus compliqué que VSCode, à mon avis il est même plus simple. Si l'éditeur vous plait alors prenez un peu de temps pour le configurer ou pour comprendre ce qu'il pourra vous apporter plus tard.
+
+#### En vidéo...
+Une série de vidéos (où vous ne comprendrez pas tout pour le moment) peut vous aider à comprendre l'étendue de ce sujet.
+https://www.youtube.com/watch?v=tFRq_gfq7Gg&list=PLQ176FUIyIUYnLuYVKM6JhVd6ukPgzdW7&index=8
+
+
+
+#### ...ou plus rapidement
 Ce que va principalement vous apporter WebStorm (ou tout autre logiciel de la gamme JetBrain) :
 
 - Un code beacoup plus propre
