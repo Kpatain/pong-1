@@ -117,8 +117,10 @@ Petit conseil, faites passer le mot qu'il ne faut pas attendre jeudi soir pour s
 
 #### On va...
 
-- Revenir sur la notion de classe Css ET Js pour nos raquettes (Certains sont passés à côté du concept et on les excuse car c'est pas évident).
+- Essayer un autre [éditeur de code](https://www.jetbrains.com/fr-fr/webstorm/download/#section=windows) 
+- Revenir sur la [notion de classe](formules-magiques.md#pour-cr%C3%A9er-une-classe) Css ET Js pour nos raquettes (Certains sont passés à côté du concept et on les excuse car c'est pas évident).
 - Mettre nos classes dans des fichiers.js séparés.
+- Apprendre à utiliser des getter/setter pour se simplifier la vie 
 - faire bouger les raquettes avec le clavier :heart_eyes: :sunglasses:
 - faire rebondir la balle sur les raquettes
 - faire perdre / gagner les joueurs
