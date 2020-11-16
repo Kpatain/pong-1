@@ -200,7 +200,7 @@ if(this.gauche < joueur1.droite){ //si la balle dépasse à gauche la raquette g
 - Enfin si la balle passe à côté des raquettes, on remet la balle au centre (X et Y) et c'est reparti.
 
 Si vous respectez tout ça, vous avez un jeu jouable. 
-C'est pas ouf encore, mais c'est jouable.
+C'est pas ouf encore, mais c'est jouable. :muscle: :muscle: :muscle:
 
 
 # Day 04 2020/11/23
