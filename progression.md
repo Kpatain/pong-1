@@ -121,25 +121,96 @@ Petit conseil, faites passer le mot qu'il ne faut pas attendre jeudi soir pour s
 - Revenir sur la [notion de classe](formules-magiques.md#pour-cr%C3%A9er-une-classe) Css ET Js pour nos raquettes (Certains sont passés à côté du concept et on les excuse car c'est pas évident).
 - Mettre nos classes dans des fichiers.js séparés.
 - Apprendre à utiliser des getter/setter pour se simplifier la vie 
-- faire bouger les raquettes avec le clavier :heart_eyes: :sunglasses:
-- faire rebondir la balle sur les raquettes
-- faire perdre / gagner les joueurs
-
-Si on a le temps...
-
-- faire changer de couleur la `border` du terrain et des raquettes (#00FF00) quand la balle les touche (ça fait pas fonctionner le jeu mais ça le rend plus sympa)
-- faire accélerer petit à petit notre balle quand elle touche les raquettes (pas les murs)
-- donner une vitesse d'accélération maximum à notre balle
 
 ## Contrôle continu :cold_sweat:
 
-Je complèterai cette section après le cours en fonction de comment on aura avancé.
+Deadline **Samedi 21 Novembre 05:00 AM**  (Heure de Paris / France / Terre)
+
+On a vu pas mal de notions mais on ne les a pas vraiment mises en pratique par manque de temps, donc pour ne pas trop vous surcharger de travail, je vous donne plein d'exemples de code pour vous inspirer. Je vous conseille de faire les taches dans cet ordre, ce sera beaucoup plus facile
+
+- dans le setInterval je veux 3 lignes seulement...
+```javascript
+raquette1.bouge(); //raquette1 peut s'appeller raquetteGauche ça me va aussi hein...
+raquette2.bouge();
+balle.bouge();
+```
+
+Ensuite...
+
+- contrôler les raquettes gauche et droite respectivement avec les touches A/Q et P/M du clavier.
+
+```javascript
+// Histoire de vous mettre sur la voie...
+//quand on APPUIE sur une touche du clavier
+window.addEventListener("keydown", function (event) {
+    if (event.defaultPrevented) {
+        return; // je n'explique pas à quoi ça sert ça vous embrouillerait sans raison
+    }
+    if(event.key === "a"){
+        joueur1.monte();
+    }
+    if(event.key === "q"){
+        joueur1.descend();
+    }
+    //je vous laisse deviner pour le joueur 2...
+    
+    event.preventDefault(); // je n'explique pas à quoi ça sert ça vous embrouillerait sans raison
+}, true);
+
+//je vous laisse deviner pour les touches relachées...
+
+```
+
+- Je veux des getters sur bas et droite (balle et raquettes).
+- Je veux des setters sur bas et droite (balle et raquettes).
+
+```javascript
+//dans Balle.js 
+// Histoire de vous mettre sur la voie le getter (obtenir) et le setter (définir) de bas de la balle mais qui pourrait marcher aussi pour la raquette.
+/**
+ * Obtenir la position en bas
+ * @returns {number}
+ */
+get bas() {
+    return this.haut + this.hauteur;
+}
+/**
+ * Permet de définir le bas, ce qui influera logiquement sur le haut
+ * @param {number} value
+ */
+set bas(value) {
+    this.haut = value - this.hauteur;
+}
+```
+
+- faire rebondir la balle sur les raquettes
+
+```javascript
+//dans Balle.js
+// Histoire de vous mettre sur la voie un petit bout de code pour savoir si ma balle touche la raquette gauche, à vous de définir où mettre ça et quoi faire dans ce cas là
+if(this.gauche < joueur1.droite){ //si la balle dépasse à gauche la raquette gauche
+  if(this.bas > joueur1.haut){ //et si la balle est plus basse que le haut de la raquette
+    if(this.haut < joueur1.bas){ // et si la balle est plus haute que le bas de la raquette
+      // donc la balle va rebondir sur la raquette, à vous de jouer!
+    }
+  }
+}
+```
+
+- Enfin si la balle passe à côté des raquettes, on remet la balle au centre (X et Y) et c'est reparti.
+
+Si vous respectez tout ça, vous avez un jeu jouable. 
+C'est pas ouf encore, mais c'est jouable.
+
 
 # Day 04 2020/11/23
 
 #### On va...
 
+- faire accélerer petit à petit notre balle quand elle touche les raquettes (pas les murs)
+- donner une vitesse d'accélération maximum à notre balle
 - faire rebondir la balle un peu plus vers le haut quand elle touche le haut de la raquette, un peu plus vers le bas quand elle touche le bas (cette notion Mathématique fort complexe s'appelle un produit en croix) :dizzy_face:
+- faire changer de couleur la `border` du terrain et des raquettes (#00FF00) quand la balle les touche (ça fait pas fonctionner le jeu mais ça le rend plus sympa)
 - Gérer les scores HTML + CSS + classes JS
 - Gérer l'écran de démarrage HTML + CSS + classes JS + intégration du fullscreen
 
