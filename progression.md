@@ -203,27 +203,44 @@ Si vous respectez tout ça, vous avez un jeu jouable.
 C'est pas ouf encore, mais c'est jouable. :muscle: :muscle: :muscle:
 
 
-# Day 04 2020/11/23
+# Day 04 2020/11/23 :cry:
+
+A 15h00 nous rendrons hommage à Bastien. On va donc modifier le cours car on sera tous un peu perturbés et on n'aura pas la même capacité de concentration qu'habituellement.
 
 #### On va...
 
+- Prendre un peu de recul et relativiser :rainbow: l'importance de ce qui se passe dans ce cours et l'investissement que ça demande. 
+- Parler un peu du cours en info 2D
+- Apprendre à débugger les projets *bloqués*.
+- Apprendre à débugger les projets *boggués*.
+
+#### Pour la suite
+
+Vous avez tous eu accès [au code source en infographie 2D](https://github.com/davidmarsprof/pong-wimbledon).
+Vous trouverez [ici mon code source simplifié et commenté](https://github.com/davidmars/pong-jquery) qui ne porte QUE sur le cours de prog web. 
+
+Vous avez vu toutes les notions importantes à ce stade. Maintenant, il vous reste à les assimiler en pratiquant. Si vous faites un copier/coller de mon code ça ne vous apportera rien. Il faut que vous continuiez à vous fixer des objectifs, à essayer de les remplir seuls et si vous bloquez reagardez mon code.
+
+#### A l'issue du cours les délégués vont organiser un vote pour savoir comment va se dérouler la suite...
+
+- Est ce que vous voulez qu'on repousse le partiel d'une semaine? (donc on oublie le tournoi de pong)
+- Est ce que vous voulez que je continue à vous mettre des petites notes au fil de la semaine ou est ce que vous préférez être en autonomie complète ?
+
+#### Les prochaines étapes dans l'ordre sont...
+
 - faire accélerer petit à petit notre balle quand elle touche les raquettes (pas les murs)
 - donner une vitesse d'accélération maximum à notre balle
-- faire rebondir la balle un peu plus vers le haut quand elle touche le haut de la raquette, un peu plus vers le bas quand elle touche le bas (cette notion Mathématique fort complexe s'appelle un produit en croix) :dizzy_face:
-- faire changer de couleur la `border` du terrain et des raquettes (#00FF00) quand la balle les touche (ça fait pas fonctionner le jeu mais ça le rend plus sympa)
+- faire rebondir la balle un peu plus vers le haut quand elle touche le haut de la raquette, un peu plus vers le bas quand elle touche le bas (cette notion Mathématique fort complexe s'appelle un produit en croix) 😵
+- faire changer de couleur la border du terrain et des raquettes (#00FF00) quand la balle les touche (ça fait pas fonctionner le jeu mais ça le rend plus sympa)
 - Gérer les scores HTML + CSS + classes JS
 - Gérer l'écran de démarrage HTML + CSS + classes JS + intégration du fullscreen
+- Intégrer le son de piano pour ceux qui se sentent. :musical_keyboard: :headphones:
 
-# Day 05 2020/11/30 :musical_keyboard: :headphones:
-
-#### Penser à...
-
-- prendre un :headphones:
+# Day 05 2020/11/30 
 
 #### On va faire... 
 
 - 2 heures pour bien assimiler tout ce qu'on a fait ou faire ce qu'on aura pas eu le temps de faire
-- Intégrer le son de piano pour ceux qui se sentent.
 
 # Day 06 2020/12/07 :scream: :scream: :scream:
 
