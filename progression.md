@@ -237,7 +237,9 @@ Ce que j'attends de vous :
 - donner une vitesse d'accélération maximum à notre balle pour que ça reste jouable. N'allez pas chercher midi à 14h, c'est très très simple. *Si la vitesse n'est pas trop rapide alors accelere*
 - faire changer de couleur la border du terrain et des raquettes (#00FF00) quand la balle les touche (ça fait pas fonctionner le jeu mais ça le rend plus sympa)
  
-#### Si vous voulez continuer, les prochaines étapes dans l'ordre seront...
+## Si il vous reste des neuronnes...
+
+Les prochaines étapes dans l'ordre seront:
 
 - Faire fonctionner les scores
 - faire rebondir la balle un peu plus vers le haut quand elle touche le haut de la raquette, un peu plus vers le bas quand elle touche le bas (cette notion Mathématique fort complexe s'appelle un produit en croix) 😵
