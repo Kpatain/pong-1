@@ -228,12 +228,11 @@ Vous avez vu toutes les notions importantes à ce stade. Maintenant, il vous res
 
 ## Contrôle continu :cold_sweat:
 
-#Repensez au cours précédent# sur le débug des erreurs. Parlez en 5 minutes entre vous, refaites-vous le film. Cette méthodolgie de débuggage vous sera très très utile et vous évitera de paniquer inutilement quand votre code ne fonctionnera pas comme prévu. Le self control paye toujours en programmation.
-
 Je noterai vos projets à partir de **samedi 28** au petit matin. Vous avez le code source corrigé, donc jouez le jeu, creusez vous bien la tête, fouillez les formules magiques pour trouver ce qui vous manque et seulement si vous bloquez sur un point précis alors allez voir le corrigé. Si vous ne faites pas cet effort d'une heure ou deux ça ne rentrera pas dans votre tête.
 
 Ce que j'attends de vous :
 
+- **Repensez au cours précédent** sur le débug des erreurs. Parlez en 5 minutes entre vous, refaites-vous le film. Cette méthodolgie de débuggage vous sera très très utile et vous évitera de paniquer inutilement quand votre code ne fonctionnera pas comme prévu. Le self control paye toujours en programmation. Ce premier point ne vous fera pas gagner de point en controle continu, il vous fera juste coder 3 fois plus vite.
 - Intégrez les scores (0 | 0) en HTML + CSS (on les fera marcher plus tard en cours)
 - faire accélerer petit à petit notre balle quand elle touche les raquettes (programme de Math de CP)
 - donner une vitesse d'accélération maximum à notre balle pour que ça reste jouable. N'allez pas chercher midi à 14h, c'est très très simple. *Si la vitesse n'est pas trop rapide alors accelere*
