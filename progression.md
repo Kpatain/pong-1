@@ -226,15 +226,35 @@ Vous avez vu toutes les notions importantes à ce stade. Maintenant, il vous res
 - Est ce que vous voulez qu'on repousse le partiel d'une semaine? (donc on oublie le tournoi de pong)
 - Est ce que vous voulez que je continue à vous mettre des petites notes au fil de la semaine ou est ce que vous préférez être en autonomie complète ?
 
-#### Les prochaines étapes dans l'ordre sont...
+## Contrôle continu :cold_sweat:
 
-- faire accélerer petit à petit notre balle quand elle touche les raquettes (pas les murs)
-- donner une vitesse d'accélération maximum à notre balle
-- faire rebondir la balle un peu plus vers le haut quand elle touche le haut de la raquette, un peu plus vers le bas quand elle touche le bas (cette notion Mathématique fort complexe s'appelle un produit en croix) 😵
+Je noterai vos projets à partir de **samedi 28**. Vous avez le code source corrigé, donc jouez le jeu, creusez vous bien la tête, fouillez les formules magiques pour trouver ce qui vous manque et seulement si vous bloquez sur un point précis alors allez voir le corrigé. Si vous ne faites pas cet effort d'une heure ou deux ça ne rentrera pas dans votre tête.
+
+Ce que j'attends de vous :
+
+- Intégrez les scores (0 | 0) en HTML + CSS (on les fera marcher plus tard en cours)
+- faire accélerer petit à petit notre balle quand elle touche les raquettes (programme de Math de CP)
+- donner une vitesse d'accélération maximum à notre balle pour que ça reste jouable. N'allez pas chercher midi à 14h, c'est très très simple. *Si la vitesse n'est pas trop rapide alors accelere*
 - faire changer de couleur la border du terrain et des raquettes (#00FF00) quand la balle les touche (ça fait pas fonctionner le jeu mais ça le rend plus sympa)
-- Gérer les scores HTML + CSS + classes JS
-- Gérer l'écran de démarrage HTML + CSS + classes JS + intégration du fullscreen
-- Intégrer le son de piano pour ceux qui se sentent. :musical_keyboard: :headphones:
+ 
+#### Si vous voulez continuer, les prochaines étapes dans l'ordre seront...
+
+- Faire fonctionner les scores
+- faire rebondir la balle un peu plus vers le haut quand elle touche le haut de la raquette, un peu plus vers le bas quand elle touche le bas (cette notion Mathématique fort complexe s'appelle un produit en croix) 😵
+- Gérer l'écran de démarrage HTML + CSS + classes JS + intégration du fullscreen au click.
+
+#### Si vous êtes motivés...
+
+Intégrez le son de piano :musical_keyboard: :headphones: . Pour ce dernier point on va procéder différemment. 
+- Commencez par vous demander à quoi ça va nous servir [ça](https://github.com/davidmarsprof/pong/tree/main/exemple/sound)
+- Lisez [ça](https://createjs.com/getting-started/soundjs)
+- Essayez un peu par vous même de faire jouer UNE SEULE note quand la balle rebondit.
+    Dans votre console sur chrome vous aurez 3 erreurs qui vont s'afficher pour `soundjs.min.js:18` **ce n'est pas grave**. Une fois que le projet sera sur GitHub ces erreurs n'aparaitront plus. Ce sont des erreurs de sécurité qui ne doivent pas empêcher votre projet de fonctionner.
+
+- Puis lisez [comment j'ai géré ça de mon côté](https://github.com/davidmars/pong-jquery/blob/main/js/Audio.js). 
+   - [Vous verrez un tableau](https://github.com/davidmarsprof/pong/blob/main/formules-magiques.md#les-tableaux) ligne 21 de mon code. C'est un tableau comme en cours d'algo sauf que c'est beacoup plus simple à créer en javascript car le langage est moins strict.
+   - Enfin pour la fonction `fausseNote()` c'est pas vraiment du code conventionel, c'est du code créatif. Il n'y a rien de compliqué techniquement cependant un très bon programmeur sans aucune imagination n'aura jamais l'idée de faire ça.
+   
 
 # Day 05 2020/11/30 
 
