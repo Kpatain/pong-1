@@ -237,14 +237,28 @@ Ce que j'attends de vous :
 - faire accélerer petit à petit notre balle quand elle touche les raquettes (programme de Math de CP)
 - donner une vitesse d'accélération maximum à notre balle pour que ça reste jouable. N'allez pas chercher midi à 14h, c'est très très simple. *Si la vitesse n'est pas trop rapide alors accelere*
 - faire changer de couleur la border du terrain et des raquettes (#00FF00) quand la balle les touche (ça fait pas fonctionner le jeu mais ça le rend plus sympa)
- 
-## Si il vous reste des neuronnes...
 
-Les prochaines étapes dans l'ordre seront:
+# Day 05 2020/11/30 
 
-- Faire fonctionner les scores
-- faire rebondir la balle un peu plus vers le haut quand elle touche le haut de la raquette, un peu plus vers le bas quand elle touche le bas (cette notion Mathématique fort complexe s'appelle un produit en croix) 😵
+#### On ne va pas faire
+
+- Un cours de math sur PI, les sinus, les cosinus, et les calculs d'angles (de toute façon depuis 1996 je ne saurais plus faire ce cours pour être honnête avec vous). Quand j'ai besoin de faire de la physique, j'utilise [des librairies dédiées](https://brm.io/matter-js/) à ça et la plupart des programmeurs font comme moi. L'objectif de mon enseignement est justement de vous démontrer qu'avec une bonne logique et très peu de maths on peut faire plein de choses. Donc si vous voulez continuer avec des calculs d'angles allez y mais il va faloir vous creuser pas mal la tête pour gérer la vitesse, et les angles qui changent à l'impact sur la raquette. 
+
+#### On va faire... 
+
+- un petit retour sur vos codes
+    - sur les display flex https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+    - sur la fonction de mise en surbrillance des contours au contact avec la balle (on va factoriser)
+    
+- fonctionner les scores
+- rebondir la balle un peu plus vers le haut quand elle touche le haut de la raquette, un peu plus vers le bas quand elle touche le bas (cette notion Mathématique fort complexe s'appelle un produit en croix) 😵
 - Gérer l'écran de démarrage HTML + CSS + classes JS + intégration du fullscreen au click.
+
+# Day 06 2020/12/07 
+
+#### On va faire... 
+
+- 2 heures pour bien assimiler tout ce qu'on a fait ou faire ce qu'on aura pas eu le temps de faire
 
 #### Si vous êtes motivés...
 
@@ -257,24 +271,12 @@ Intégrez le son de piano :musical_keyboard: :headphones: . Pour ce dernier poin
 - Puis lisez [comment j'ai géré ça de mon côté](https://github.com/davidmars/pong-jquery/blob/main/js/Audio.js). 
    - [Vous verrez un tableau](https://github.com/davidmarsprof/pong/blob/main/formules-magiques.md#les-tableaux) ligne 21 de mon code. C'est un tableau comme en cours d'algo sauf que c'est beacoup plus simple à créer en javascript car le langage est moins strict.
    - Enfin pour la fonction `fausseNote()` c'est pas vraiment du code conventionel, c'est du code créatif. Il n'y a rien de compliqué techniquement cependant un très bon programmeur sans aucune imagination n'aura jamais l'idée de faire ça.
-   
 
-# Day 05 2020/11/30 
 
-#### On va faire... 
-
-- 2 heures pour bien assimiler tout ce qu'on a fait ou faire ce qu'on aura pas eu le temps de faire
-
-# Day 06 2020/12/07 :scream: :scream: :scream:
+# Day 07 2020/12/14 :scream: :scream: :scream:
 
 #### Vous allez faire...
 
 - partiel
 
 Ne vous inquiétez pas, tout ce que je vous demanderai vous l'aurez déjà fait et pratiqué en cours. Ce partiel sert à valider que vous l'avez bien compris et non pas simplement copié/collé. Vous devrez créer un nouveau repo github + github page pour me rendre votre travail donc entrainez vous histoire de pas passer 2 heures à essayer de publier un site sur github.
-
-# Day 07 2020/12/14 :santa:  :trophy:
-
-#### On va faire...
-
-Un Tournoi de PONG ou partiel selon comment on aura avancé
