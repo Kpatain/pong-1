@@ -240,27 +240,41 @@ Ce que j'attends de vous :
 
 # Day 05 2020/11/30 
 
-#### On ne va pas faire
+#### On n'a pas fait
 
 - Un cours de math sur PI, les sinus, les cosinus, et les calculs d'angles (de toute façon depuis 1996 je ne saurais plus faire ce cours pour être honnête avec vous). Quand j'ai besoin de faire de la physique, j'utilise [des librairies dédiées](https://brm.io/matter-js/) à ça et la plupart des programmeurs font comme moi. L'objectif de mon enseignement est justement de vous démontrer qu'avec une bonne logique et très peu de maths on peut faire plein de choses. Donc si vous voulez continuer avec des calculs d'angles allez y mais il va faloir vous creuser pas mal la tête pour gérer la vitesse, et les angles qui changent à l'impact sur la raquette. 
 
-#### On va faire... 
+#### On a fait... 
 
 - un petit retour sur vos codes
     - sur les display flex https://css-tricks.com/snippets/css/a-guide-to-flexbox/
     - sur la fonction de mise en surbrillance des contours au contact avec la balle (on va factoriser)
-    
+        
 - fonctionner les scores
 - rebondir la balle un peu plus vers le haut quand elle touche le haut de la raquette, un peu plus vers le bas quand elle touche le bas (cette notion Mathématique fort complexe s'appelle un produit en croix) 😵
-- Gérer l'écran de démarrage HTML + CSS + classes JS + intégration du fullscreen au click.
+
+#### On a (j'ai) pas réussi...
+
+Grégoire a eu la bonne idée de me demander d'animer le terrain, je lui ai proposé d'utiliser animate.css pour faire ça, facile... Sauf que pour une raison que je ne m'explique pas ça n'a pas marché... ça arrive.
+
+Ce matin, je rééssaye et ça a fonctionné du premier coup. Bref pour que ça marche voici la [modif que j'ai faite sur le code source](https://github.com/davidmars/pong-jquery/commit/66128a554dd9416299733df68b9239021c424ae2). Et ce que ça donne https://davidmars.github.io/pong-jquery/
+
+## Contrôle continu :cold_sweat:
+
+Pour **Dimanche matin**
+
+- intégrez l'écran de démarrage HTML + CSS par dessus votre jeu. 
+Inspirez vous de mon code HTML/CSS https://github.com/davidmars/pong-jquery histoire d'avoir les notions techniques.
+
 
 # Day 06 2020/12/07 
 
 #### On va faire... 
 
-- 2 heures pour bien assimiler tout ce qu'on a fait ou faire ce qu'on aura pas eu le temps de faire
+- Démarrer notre jeu au click sur notre écran de démarrage.
+- Tout le reste du cours sera consacré à remettre d'applomb les projets bloqués pour que ceux qui sont en difficulté partent avec une bonne base pour la semaine prochaine.
 
-#### Si vous êtes motivés...
+#### Pour ceux qui sont à l'aise, prennez un casque et faites ce qui suit en autonomie...
 
 Intégrez le son de piano :musical_keyboard: :headphones: . Pour ce dernier point on va procéder différemment. 
 - Commencez par vous demander à quoi ça va nous servir [ça](https://github.com/davidmarsprof/pong/tree/main/exemple/sound)
