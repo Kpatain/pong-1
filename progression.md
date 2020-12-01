@@ -263,6 +263,7 @@ Ce matin, je rééssaye et ça a fonctionné du premier coup. Bref pour que ça 
 
 Pour **Dimanche matin**
 
+- Si votre jeu ne fonctionne pas, faites vous un peu violence, passez du temps desssus, **faites vous aider** par ceux qui sont plus à l'aise en cas de bloquage. Ne copiez pas bêtement du code sans comprendre ce que vous faites mais n'hésitez pas à vous inspirer du code des autres. Bref bossez bien cette semaine.
 - intégrez l'écran de démarrage HTML + CSS par dessus votre jeu. 
 Inspirez vous de mon code HTML/CSS https://github.com/davidmars/pong-jquery histoire d'avoir les notions techniques.
 
